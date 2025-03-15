@@ -1,4 +1,10 @@
-{ stdenv }:
+{
+  stdenv,
+  fetchgit,
+  clang,
+  cmake,
+  sdbus-cpp,
+}:
 
 let
   commit = "72dde8b51c10728fc19c646700bb0b1c0ad8c366";
